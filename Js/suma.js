@@ -1,4 +1,4 @@
-document.getElementById('Vresultado').innerHTML =  getRandomIntInclusive();
+ document.getElementById('Vresultado').innerHTML =  getRandomIntInclusive(); 
 
 
 function getRandomIntInclusive() {
@@ -6,7 +6,6 @@ function getRandomIntInclusive() {
     let b = aleatorio(1,10)
     let resultado = a + ' + ' + b
     localStorage.setItem("1", a + b);  /** Guarda en la memoria */
-    console.log(a+b)
     return resultado
   }
 
